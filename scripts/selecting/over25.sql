@@ -1,3 +1,3 @@
-SELECT firstname, lastname
+SELECT first_name, last_name,(extract(year from current_date) - extract(year from date_of_birth)) AS  Age
 FROM students
-WHERE date_of_birth <= '1994-04-19';
+WHERE (extract(year from current_date) - extract(year from date_of_birth)) > 25;
