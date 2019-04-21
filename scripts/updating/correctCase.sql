@@ -1,1 +1,1 @@
-UPDATE students SET town_of_origin = initcap('tokyo') WHERE town_of_origin = ('tokyo');
+UPDATE students SET town_of_birth = initcap('tokyo') WHERE town_of_birth = ('tokyo');
